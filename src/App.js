@@ -1,14 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 //import "./style.css";
 import "./App.css";
-import TodoForm from "./components/TodoForm";
-import TodoItem from "./components/TodoItem";
-import TodoList from "./components/TodoList";
+import "./components/TaskList";
+import TaskList from "./components/TaskList";
+import AddTask from "./components/AddTask";
 
 function App() {
   return (
     <div>
-      <TodoList />
+      <TaskList />
+      <AddTask />
     </div>
   );
 }
